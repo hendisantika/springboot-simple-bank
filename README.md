@@ -31,11 +31,18 @@ This service is responsible for storing Accounts and retrieving them.
 In command line execute:
 -- java -jar accounts-0.0.1-SNAPSHOT.jar
 ### The following REST endpoints are exposed:
-- Create account:
--- POST /accounts?customerId=<CUSTOMER_ID>&name=<CUSTOMER_NAME>&initialCredit=<INITIAL_CREDIT>
--- Returns ID of created account
-- Get account by customer ID:
--- GET /accounts?customerId=<CUSTOMER_ID>
+    * Create account:
+    
+    ```
+     POST /accounts?customerId=<CUSTOMER_ID>&name=<CUSTOMER_NAME>&initialCredit=<INITIAL_CREDIT>
+    ```
+    
+    * Returns ID of created account
+    - Get account by customer ID:
+    
+    ```
+    GET /accounts?customerId=<CUSTOMER_ID>
+    ```
 ### Configuration:
 server.port - port number which this service is listening to. Default - 8082
 create.transaction.service.url - URL of Transactions service for creating account transaction
