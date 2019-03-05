@@ -11,8 +11,8 @@
     <groupId>com.hendisantika</groupId>
     <artifactId>data-viewer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>data-viewer</name>
-    <description>Demo project for Spring Boot</description>
+    <name>DataViewer</name>
+    <description>Web Frontend and REST API</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -22,6 +22,14 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jersey</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
