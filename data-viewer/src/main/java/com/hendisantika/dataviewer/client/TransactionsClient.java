@@ -1,6 +1,6 @@
 package com.hendisantika.dataviewer.client;
 
-import org.jvnet.hk2.config.Transaction;
+import com.hendisantika.dataviewer.dto.Transaction;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestClientException;

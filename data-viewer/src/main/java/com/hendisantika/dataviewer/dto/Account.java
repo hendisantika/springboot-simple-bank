@@ -1,7 +1,5 @@
 package com.hendisantika.dataviewer.dto;
 
-import org.jvnet.hk2.config.Transaction;
-
 import java.util.ArrayList;
 import java.util.List;
 
