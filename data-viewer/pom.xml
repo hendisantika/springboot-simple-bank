@@ -9,37 +9,19 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.hendisantika</groupId>
-    <artifactId>springboot-simple-bank</artifactId>
+    <artifactId>data-viewer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-simple-bank</name>
+    <name>data-viewer</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
 
-    <modules>
-        <module>accounts</module>
-        <module>transactions</module>
-        <module>data-viewer</module>
-    </modules>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-jersey</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
         <dependency>
